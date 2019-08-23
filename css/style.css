@@ -1,0 +1,86 @@
+body {
+    color: aqua;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: rgb(12, 0, 117) 2px 2px 2px;
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+}
+.head-bar {
+    background-color:teal;
+    color:lightpink;
+    text-decoration:none;
+    list-style-type:none;
+    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    opacity:0.8;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+li{
+    display: inline;
+}
+a{
+    list-style:none;
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+list-style:none;
+text-decoration:none;
+color:white;
+}
+.about {
+text-align:center;
+}
+.top-bar {
+
+}
+.footer-bar {
+
+}
+.floater {
+    float:right;
+}
+.marg-top {
+    margin-top:-10px;
+}
+.thumb {
+    width:350px;
+    height:200px;
+    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    opacity:0.9;
+}
+.avatar {
+    margin-left:39%;
+box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+opacity:0.9
+}
+.border {
+    border-bottom: teal solid 2px;
+    margin-top:30px;
+}
+.button-default {
+    color: white;
+    background-color: teal;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    margin: 10px;
+    display: inline-block;
+    align:right;
+    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+  }
+  .button-pad {
+      padding:0px 15px;
+  }
+  .button-slanted {
+    transform: skewX(-20deg);
+  }
+  
+  .button-slanted-content {
+    transform: skewX(20deg);  
+    display: inline-block;
+  }
