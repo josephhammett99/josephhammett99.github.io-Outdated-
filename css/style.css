@@ -28,18 +28,18 @@ a{
     text-decoration:none;
 }
 a:hover{
-list-style:none;
-text-decoration:none;
-color:white;
+    list-style:none;
+    text-decoration:none;
+    color:white;
 }
 .about {
-text-align:center;
+    text-align:center;
 }
 .top-bar {
-
 }
 .footer-bar {
-
+background:#003030;
+opacity:0.7;
 }
 .floater {
     float:right;
@@ -54,17 +54,20 @@ text-align:center;
     opacity:0.9;
 }
 .avatar {
-    margin-left:39%;
-box-shadow:rgb(12, 0, 117) 2px 2px 2px;
-opacity:0.9
+    margin-left:41%;
+    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    opacity:0.9;
+    height:200px;
+    width:200px;
+    border-radius:100px;
 }
 .border {
-    border-bottom: teal solid 2px;
+    border-bottom:#003777 solid 4px;
     margin-top:30px;
 }
 .button-default {
     color: white;
-    background-color: teal;
+    background-color: #009494;
     text-align: center;
     text-transform: uppercase;
     padding: 5px 25px;
