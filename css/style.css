@@ -148,11 +148,24 @@ opacity: 0.7;
     background: #2980B9;
     padding: 11px 20px;
     opacity: 0.9;
-    margin-left: 34%;
+    margin-left: 39%;
     margin-top: 15px;
     transition: background .2s linear;
 }
 .more-btn:hover {
     background: #7FB3D5;
     transition: background .2s linear;
+}
+.side-border {
+    border-bottom:#003777 solid 2.5px;
+    width:400px;
+}
+.brd-align-r {
+    margin-left:-100px;
+}
+.brd-align-l {
+    margin-left:60px;
+}
+.botter {
+    margin-bottom:-12px;
 }
