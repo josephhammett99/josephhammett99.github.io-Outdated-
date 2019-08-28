@@ -3,6 +3,9 @@ body {
     font-family: 'Comfortaa', cursive;
     text-shadow: rgb(12, 0, 117) 2px 2px 2px;
 }
+.background {
+    background-repeat: no-repeat;
+}
 p{
     color:#95FFE5;
 }
@@ -168,4 +171,14 @@ opacity: 0.7;
 }
 .botter {
     margin-bottom:-12px;
+}
+@media (max-width: 768px){
+    body{
+        width:100%;
+    }
+}
+@media (max-width: 768px){
+    .tester{
+        width:100%;
+    }
 }
