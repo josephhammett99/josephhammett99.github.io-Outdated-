@@ -176,9 +176,20 @@ opacity: 0.7;
     body{
         width:100%;
     }
-}
-@media (max-width: 768px){
     .tester{
         width:100%;
+    }
+    .btn-resize{
+        padding:4px 8px;
+        font-size:12px;
+        margin:0;
+    }
+}
+@media (max-width:991px){
+.side-border{
+    display:none;
+}
+.avatar{
+    margin:auto;
     }
 }
