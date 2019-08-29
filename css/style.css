@@ -44,8 +44,9 @@ a:hover{
 .top-bar {
 }
 .footer-bar {
-background:#003030;
-opacity: 0.7;
+    background:#003030;
+    opacity: 0.7;
+    width: 100%;
 }
 .floater {
     float: right;
@@ -184,12 +185,43 @@ opacity: 0.7;
         font-size:12px;
         margin:0;
     }
+    .thumb{
+        margin:auto;
+    }
+    .footer-bar{
+        background:#003030;
+        opacity: 0.7;
+        width: 100%;
+    }
+    .border{
+        border-bottom:#003777 solid 4px;
+        box-shadow:rgb(12, 0, 117) 5px 5px 5px;
+        margin-top:160px;
 }
-@media (max-width:991px){
+@media (max-width:992px){
 .side-border{
     display:none;
 }
 .avatar{
     margin:auto;
+    }
+}
+@media (max-width:850px){
+    .thumb{
+        margin:auto;
+        width:150px;
+        height:50px;
+    }
+}
+@media (max-width:640px){
+    .btn-resize{
+        padding:4px 5px;
+        font-size:11px;
+        margin:0;
+    }
+}
+@media (max-width:1366px){
+    .side-border{
+        display:none;
     }
 }
