@@ -196,7 +196,7 @@ a:hover{
     .border{
         border-bottom:#003777 solid 4px;
         box-shadow:rgb(12, 0, 117) 5px 5px 5px;
-        margin-top:160px;
+        margin-top:120px;
 }
 @media (max-width:992px){
 .side-border{
@@ -204,6 +204,9 @@ a:hover{
 }
 .avatar{
     margin:auto;
+    }
+    .footer-bar{
+        margin:0px;
     }
 }
 @media (max-width:850px){
