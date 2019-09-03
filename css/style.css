@@ -173,6 +173,13 @@ a:hover{
 .botter {
     margin-bottom:-12px;
 }
+@media (max-width:640px){
+    .btn-resize{
+        padding:4px 5px;
+        font-size:11px;
+        margin:0;
+    }
+}
 @media (max-width: 768px){
     body{
         width:100%;
@@ -197,16 +204,6 @@ a:hover{
         border-bottom:#003777 solid 4px;
         box-shadow:rgb(12, 0, 117) 5px 5px 5px;
         margin-top:120px;
-}
-@media (max-width:992px){
-.side-border{
-    display:none;
-}
-.avatar{
-    margin:auto;
-    }
-    .footer-bar{
-        margin:0px;
     }
 }
 @media (max-width:850px){
@@ -216,11 +213,12 @@ a:hover{
         height:50px;
     }
 }
-@media (max-width:640px){
-    .btn-resize{
-        padding:4px 5px;
-        font-size:11px;
-        margin:0;
+@media (max-width:992px){
+    .side-border{
+        display:none;
+    }
+    .avatar{
+        margin:auto;
     }
 }
 @media (max-width:1366px){
