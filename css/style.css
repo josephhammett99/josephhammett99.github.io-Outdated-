@@ -41,8 +41,6 @@ a:hover{
 .about {
     text-align: center;
 }
-.top-bar {
-}
 .footer-bar {
     background:#003030;
     opacity: 0.7;
@@ -87,21 +85,21 @@ a:hover{
     display: inline-block;
     align: right;
     box-shadow:rgb(12, 0, 117) 2px 2px 2px;
-  }
-  .button-pad {
+}
+.button-pad {
     padding: 0px 15px;
-  }
-  .button-slanted {
+}
+.button-slanted {
     transform: skewX(-20deg);
-  }
-  .button-slanted-content {
+}
+.button-slanted-content {
     transform: skewX(20deg);  
     display: inline-block;
-  }
-  .button-default:hover{
+}
+.button-default:hover{
     background-color:#00cccc;
-  }
-  .item {
+}
+.item {
     position: relative;
     width: 350px;
     margin: 20px auto;
