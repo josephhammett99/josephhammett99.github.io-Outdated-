@@ -63,7 +63,7 @@ a:hover{
     padding: 5px 25px;
     margin: 10px;
     display: inline-block;
-    align: right;
+    box-align: right;
     box-shadow:rgb(12, 0, 117) 2px 2px 2px;
 }
 .button-pad {
@@ -132,24 +132,45 @@ a:hover{
     opacity: 0.9;
     margin-left: 39%;
     margin-top: 15px;
-    transition: background .2s linear;
+    transition: .2s linear;
 }
 .more-btn:hover {
     background: #7FB3D5;
-    transition: background .2s linear;
+    transition: .2s linear;
 }
 .side-border {
     border-bottom:#003777 solid 2.5px;
-    width:400px;
+    width: 400px;
 }
 .brd-align-r {
-    margin-left:-100px;
+    margin-left: -100px;
 }
 .brd-align-l {
-    margin-left:60px;
+    margin-left: 60px;
 }
 .botter {
-    margin-bottom:-12px;
+    margin-bottom: -12px;
+}
+.social-ref {
+    background:#001616;
+    opacity: 0.7;
+    width: 100%;
+    height:50px;
+}
+.social-text {
+    font-size:20px;
+    margin-top:12px;
+    color:cyan;
+}
+.social-text a{
+color:cyan;
+}
+.social-text a:hover{
+    color:white;
+}
+.fab{
+    font-size: 20px;
+    margin-right: 5px;
 }
 @media (max-width:640px){
     .btn-resize{
@@ -182,6 +203,12 @@ a:hover{
         border-bottom:#003777 solid 4px;
         box-shadow:rgb(12, 0, 117) 5px 5px 5px;
         margin-top:120px;
+    }
+    .social-ref{
+        background:#001616;
+        opacity: 0.7;
+        width: 100%;
+        height:200px;
     }
 }
 @media (max-width:850px){
