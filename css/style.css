@@ -172,6 +172,10 @@ color:cyan;
     font-size: 20px;
     margin-right: 5px;
 }
+img.small {
+    width: 100px;
+    height:100px;
+}
 @media (max-width:640px){
     .btn-resize{
         padding:4px 5px;
