@@ -12,22 +12,6 @@ p{
 h2 {
     font-family: 'Orbitron', sans-serif;
 }
-.head-bar {
-    background-color:teal;
-    color:lightpink;
-    text-decoration: none;
-    list-style-type: none;
-    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
-    opacity: 0.8;
-}
-ul{
-    list-style: none;
-    padding: 0;
-    text-align: right;
-}
-li{
-    display: inline;
-}
 a{
     list-style: none;
     color:white;
@@ -65,10 +49,6 @@ a:hover{
     height: 200px;
     width: 200px;
     border-radius: 100px;
-}
-.wave {
-    height: 200px;
-    width: 200px;
 }
 .border {
     border-bottom:#003777 solid 4px;
