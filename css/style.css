@@ -172,10 +172,6 @@ color:cyan;
     font-size: 20px;
     margin-right: 5px;
 }
-img.small {
-    width: 100px;
-    height:100px;
-}
 @media (max-width:640px){
     .btn-resize{
         padding:4px 5px;
@@ -215,6 +211,17 @@ img.small {
         height:200px;
     }
 }
+@media (min-width:768px){
+    .footer-bar{
+        width:114%;
+    }
+    .social-ref{
+        width:114%;
+    }
+    .border{
+        width:114%;
+    }
+}
 @media (max-width:850px){
     .thumb{
         margin:auto;
@@ -228,6 +235,17 @@ img.small {
     }
     .avatar{
         margin:auto;
+    }
+}
+@media (min-width:1024px){
+    .footer-bar{
+        width:105%;
+    }
+    .social-ref{
+        width:105%;
+    }
+    .border{
+        width:105%;
     }
 }
 @media (max-width:1366px){
