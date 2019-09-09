@@ -2,8 +2,8 @@ body {
     color: aqua;
     background-color: gray;
     font-family: 'Comfortaa', cursive;
-    text-shadow: rgb(12, 0, 117) 2px 2px 2px;
-    background-image: linear-gradient(darkturquoise, blue); /*linear-gradient is used here to allow two colors to fuse for the background.*/
+    text-shadow: #0C0075 2px 2px 2px; /*this rule will apply a shadow to all of the text.*/
+    background-image: linear-gradient(#20B2AA, #0000FF); /*linear-gradient is used here to allow two colors to fuse for the background.*/
 }
 .background {
     background-repeat: /*no-repeat;*/
@@ -16,29 +16,29 @@ h2 {
 }
 a{
     list-style: none;
-    color:white;
+    color:#FFF;
     text-decoration: none;
 }
 a:hover{
     list-style: none;
     text-decoration: none;
-    color:white;
+    color:#FFF;
 }
 .about {
     text-align: center;
 }
-.floater {
+.floater { /*used in the footer.*/
     float: right;
 }
 .thumb {
     width: 350px;
     height: 200px;
-    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    box-shadow:#0C0075 2px 2px 2px;
     opacity: 0.9;
 }
 .avatar {
     margin:auto;
-    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    box-shadow:#0C0075 2px 2px 2px;
     opacity: 0.9;
     height: 200px;
     width: 200px;
@@ -47,10 +47,10 @@ a:hover{
 .border {
     border-bottom:#003777 solid 4px;
     margin-top: 30px;
-    box-shadow:rgb(12, 0, 117) 5px 5px 5px;
+    box-shadow:#0C0075 5px 5px 5px;
 }
 .button-default {
-    color: white;
+    color: #FFF;
     background-color: #009494;
     text-align: center;
     text-transform: uppercase;
@@ -58,25 +58,25 @@ a:hover{
     margin: 10px;
     display: inline-block;
     box-align: right;
-    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    box-shadow:#0C0075 2px 2px 2px;
 }
 .button-slanted {
     transform: skewX(-20deg);
 }
 .button-slanted-content {
-    transform: skewX(20deg);  
+    transform: skewX(20deg);
     display: inline-block;
 }
 .button-default:hover{
-    background-color:#00cccc;
+    background-color:#00CCCC;
 }
-.item {
+.item { /*all of the item classes are used to make the hover effect on the thumbnails function.*/
     position: relative;
     width: 350px;
     margin: 20px auto;
     cursor: pointer;
     overflow: hidden;
-    box-shadow:rgb(12, 0, 117) 2px 2px 2px;
+    box-shadow:#0C0075 2px 2px 2px;
 }
 .item img {
     width: 350px;
@@ -85,12 +85,12 @@ a:hover{
 .item .info {
     width: 350px;
     height: 200px;
-    background:rgba(0, 0, 0, 0.7);
+    background:rgba(0, 0, 0, 0.7); /*this color code is being used to apply opacity to the class without using any additional rules being used.*/
     position: absolute;
     top: 0px;
     left: -350px;
     opacity: 0;
-    color:aqua;
+    color:#00FFFF;
     transition: left .2s linear, opacity .2s linear; /*transition is used here to allow the hover effect to slide.*/
 }
 .item:hover .info {
@@ -105,7 +105,7 @@ a:hover{
     margin: 0;
     padding: 20px 0px 5px 0px;
     text-align: center;
-    color: aqua;
+    color: #00FFFF;
 }
 .item p {
     padding: 0px 18px;
@@ -114,7 +114,7 @@ a:hover{
 }
 .more-btn {
     display: inline-block;
-    color: aquamarine;
+    color: #7FFFD4;
     text-decoration: none;
     border-radius: 28px;
     font-family: 'Comfortaa', cursive;
@@ -129,7 +129,7 @@ a:hover{
     background: #7FB3D5;
     transition: .2s linear;
 }
-.central {
+.central { /*used for the "Web Projects" text.*/
     margin-bottom: -12px;
 }
 .footer-bar {
@@ -137,7 +137,7 @@ a:hover{
     opacity: 0.7;
     width: 100%;
 }
-.social-ref { /*my social links are in this class.*/
+.social-ref { /*my social links are stored within this class.*/
     background:#001616;
     opacity: 0.7;
     width: 100%;
@@ -145,14 +145,14 @@ a:hover{
 }
 .social-text {
     font-size:20px;
-    margin-top:12px;
-    color:cyan;
+    margin-top:30px;
+    color:#00FFFF;
 }
 .social-text a{
-color:cyan;
+    color:#00FFFF;
 }
 .social-text a:hover{
-    color:white;
+    color:#FFF;
 }
 .fab{ /*this class is being used to resize the text of my social links.*/
     font-size: 20px;
@@ -160,7 +160,7 @@ color:cyan;
 }
 @media (min-width:0px) and (max-width:364px){ /* 0px-991px - resolution size for tablets and phones.*/
     .social-ref{
-        height:200px;
+        height:275px;
         width:114%;
     }
     .footer-bar{
@@ -177,7 +177,7 @@ color:cyan;
 }
 @media (min-width:365px) and (max-width:768px){
     .social-ref{
-        height:200px;
+        height:275px;
     }
     .btn-resize{
         padding:4px 6px;
@@ -185,18 +185,25 @@ color:cyan;
         margin:4px;
     }
 }
-@media (min-width:768px) and (max-width:991px){
+@media (min-width:768px) and (max-width:992px){
     .footer-bar{
         width:110%;
+        height:240px;
     }
     .border{
         width:110%;
     }
     .social-ref{
-        height:100px;
+        height:54px;
         width:110%;
     }
-    .hide{
+    .social-text{
+        margin-top:15px;
+    }
+    .hider{
+        display:none;
+    }
+    .hider2{
         display:none;
     }
 }
@@ -220,9 +227,21 @@ color:cyan;
         top: 0px;
         left: -300px;
     }
+    .social-ref{
+        height:50px;
+    }
+    .social-text{
+        margin-top:12px;
+    }
 }
 @media (min-width:1200px){
+    .footer-bar{
+        height:180px;
+    }
     .social-ref{
-        height:108px;
+        height:45px;
+    }
+    .social-text{
+        margin-top:9px;
     }
 }
