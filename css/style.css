@@ -27,16 +27,8 @@ a:hover{
 .about {
     text-align: center;
 }
-.footer-bar {
-    background:#003030;
-    opacity: 0.7;
-    width: 100%;
-}
 .floater {
     float: right;
-}
-.marg-top {
-    margin-top: -10px;
 }
 .thumb {
     width: 350px;
@@ -67,9 +59,6 @@ a:hover{
     display: inline-block;
     box-align: right;
     box-shadow:rgb(12, 0, 117) 2px 2px 2px;
-}
-.button-pad {
-    padding: 0px 15px;
 }
 .button-slanted {
     transform: skewX(-20deg);
@@ -140,20 +129,15 @@ a:hover{
     background: #7FB3D5;
     transition: .2s linear;
 }
-.side-border {
-    border-bottom:#003777 solid 2.5px;
-    width: 400px;
-}
-.brd-align-r {
-    margin-left: -100px;
-}
-.brd-align-l {
-    margin-left: 60px;
-}
-.botter {
+.central {
     margin-bottom: -12px;
 }
-.social-ref {
+.footer-bar {
+    background:#003030;
+    opacity: 0.7;
+    width: 100%;
+}
+.social-ref { /*my social links are in this class.*/
     background:#001616;
     opacity: 0.7;
     width: 100%;
@@ -170,7 +154,7 @@ color:cyan;
 .social-text a:hover{
     color:white;
 }
-.fab{ /*this tag is being used to resize the text of my social links.*/
+.fab{ /*this class is being used to resize the text of my social links.*/
     font-size: 20px;
     margin-right: 5px;
 }
