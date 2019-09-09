@@ -1,10 +1,12 @@
 body {
     color: aqua;
+    background-color: gray;
     font-family: 'Comfortaa', cursive;
     text-shadow: rgb(12, 0, 117) 2px 2px 2px;
+    background-image: linear-gradient(darkturquoise, blue); /*linear-gradient is used here to allow two colors to fuse for the background.*/
 }
 .background {
-    background-repeat: no-repeat;
+    background-repeat: /*no-repeat;*/
 }
 p{
     color:#95FFE5;
@@ -43,7 +45,7 @@ a:hover{
     opacity: 0.9;
 }
 .avatar {
-    margin-left: 41%;
+    margin:auto;
     box-shadow:rgb(12, 0, 117) 2px 2px 2px;
     opacity: 0.9;
     height: 200px;
@@ -100,7 +102,7 @@ a:hover{
     left: -350px;
     opacity: 0;
     color:aqua;
-    transition: left .2s linear, opacity .2s linear;
+    transition: left .2s linear, opacity .2s linear; /*transition is used here to allow the hover effect to slide.*/
 }
 .item:hover .info {
     left: 0px;
@@ -168,88 +170,75 @@ color:cyan;
 .social-text a:hover{
     color:white;
 }
-.fab{
+.fab{ /*this tag is being used to resize the text of my social links.*/
     font-size: 20px;
     margin-right: 5px;
 }
-@media (max-width:640px){
-    .btn-resize{
-        padding:4px 5px;
-        font-size:11px;
-        margin:0;
-    }
-}
-@media (max-width: 768px){
-    body{
-        width:100%;
-    }
-    .tester{
-        width:100%;
-    }
-    .btn-resize{
-        padding:4px 8px;
-        font-size:12px;
-        margin:0;
-    }
-    .thumb{
-        margin:auto;
+@media (min-width:0px) and (max-width:364px){ /* 0px-991px - resolution size for tablets and phones.*/
+    .social-ref{
+        height:200px;
+        width:114%;
     }
     .footer-bar{
-        background:#003030;
-        opacity: 0.7;
-        width: 100%;
+        width:114%;
     }
     .border{
-        border-bottom:#003777 solid 4px;
-        box-shadow:rgb(12, 0, 117) 5px 5px 5px;
-        margin-top:120px;
+        width:114%;
     }
+    .btn-resize{
+        padding:4px 6px;
+        font-size:12px;
+        margin:1px;
+    }
+}
+@media (min-width:365px) and (max-width:768px){
     .social-ref{
-        background:#001616;
-        opacity: 0.7;
-        width: 100%;
         height:200px;
     }
-}
-@media (min-width:768px){
-    .footer-bar{
-        width:114%;
+    .btn-resize{
+        padding:4px 6px;
+        font-size:13px;
+        margin:4px;
     }
-    .social-ref{
-        width:114%;
+}
+@media (min-width:768px) and (max-width:991px){
+    .footer-bar{
+        width:110%;
     }
     .border{
-        width:114%;
-    }
-}
-@media (max-width:850px){
-    .thumb{
-        margin:auto;
-        width:150px;
-        height:50px;
-    }
-}
-@media (max-width:992px){
-    .side-border{
-        display:none;
-    }
-    .avatar{
-        margin:auto;
-    }
-}
-@media (min-width:1024px){
-    .footer-bar{
-        width:105%;
+        width:110%;
     }
     .social-ref{
-        width:105%;
+        height:100px;
+        width:110%;
     }
-    .border{
-        width:105%;
+    .hide{
+        display:none;
     }
 }
-@media (max-width:1366px){
-    .side-border{
-        display:none;
+@media (min-width:992px) and (max-width:1199px){ /* 992px & up - resolution size for laptops/desktops.*/
+    img.small{
+        width:300px;
+        height:180px;
+    }
+    .item {
+        position: relative;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .item img {
+        width: 300px;
+        height: 180px;
+    }
+    .item .info {
+        width: 300px;
+        height: 180px;
+        top: 0px;
+        left: -300px;
+    }
+}
+@media (min-width:1200px){
+    .social-ref{
+        height:108px;
     }
 }
