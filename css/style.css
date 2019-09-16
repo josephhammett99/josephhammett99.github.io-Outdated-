@@ -1,13 +1,12 @@
 body {
-    color: aqua;
-    background-color: gray;
+    color: #00FFFF;
     font-family: 'Comfortaa', cursive;
-    text-shadow: #0C0075 2px 2px 2px; /*this rule will apply a shadow to all of the text.*/
-    background-image: linear-gradient(#20B2AA, #0000FF); /*linear-gradient is used here to allow two colors to fuse for the background.*/
-}
+    text-shadow: #0C0075 2px 2px 2px;
+    background-image: linear-gradient(#20B2AA, #0000FF); /*linear-gradient is used here to allow colors to fuse for the background.*/
+}/*
 .background {
-    background-repeat: /*no-repeat;*/
-}
+    background-repeat: no-repeat;
+}*/
 p{
     color:#95FFE5;
 }
@@ -25,9 +24,9 @@ a:hover{
     color:#FFF;
 }
 .about {
-    text-align: center;
+    text-align: center; /*aligns the headers to be centered.*/
 }
-.floater { /*used in the footer.*/
+.floater { /*used to move the nav buttons.*/
     float: right;
 }
 .thumb {
@@ -42,10 +41,10 @@ a:hover{
     opacity: 0.9;
     height: 200px;
     width: 200px;
-    border-radius: 100px;
+    border-radius: 100px; /*makes the image round.*/
 }
 .border {
-    border-bottom:#003777 solid 4px;
+    border-bottom:#002B89 solid 4px;
     margin-top: 30px;
     box-shadow:#0C0075 5px 5px 5px;
 }
@@ -61,9 +60,9 @@ a:hover{
     box-shadow:#0C0075 2px 2px 2px;
 }
 .button-slanted {
-    transform: skewX(-20deg);
+    transform: skewX(-20deg); /*skewX is what gives the nav buttons the slanted design.*/
 }
-.button-slanted-content {
+.button-slanted-content { /*this class keeps the text from being slanted like the rest of the buttons.*/
     transform: skewX(20deg);
     display: inline-block;
 }
@@ -74,7 +73,6 @@ a:hover{
     position: relative;
     width: 350px;
     margin: 20px auto;
-    cursor: pointer;
     overflow: hidden;
     box-shadow:#0C0075 2px 2px 2px;
 }
@@ -93,7 +91,7 @@ a:hover{
     color:#00FFFF;
     transition: left .2s linear, opacity .2s linear; /*transition is used here to allow the hover effect to slide.*/
 }
-.item:hover .info {
+.item:hover .info { /*this is where the projects' hover text appears.*/
     left: 0px;
     opacity: 1;
     transition: left .2s linear, opacity .2s linear;
@@ -123,7 +121,7 @@ a:hover{
     opacity: 0.9;
     margin-left: 39%;
     margin-top: 15px;
-    transition: .2s linear;
+    transition: .2s linear; /*the project buttons have the same slide time as the rest of the item classes.*/
 }
 .more-btn:hover {
     background: #7FB3D5;
@@ -201,10 +199,10 @@ a:hover{
         margin-top:15px;
     }
     .hider{
-        display:none;
+        display:none; /*hides the "Interests" nav button on smaller resolutions.*/
     }
     .hider2{
-        display:none;
+        display:none; /*hides the freecodecamp icon so that it fits the resolution.*/
     }
 }
 @media (min-width:992px) and (max-width:1199px){ /* 992px & up - resolution size for laptops/desktops.*/
